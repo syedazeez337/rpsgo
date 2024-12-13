@@ -14,8 +14,6 @@ func main() {
 
 	r := gin.Default()
 
-    r.POST()
-
 	r.GET("/hello", hello)
 	r.GET("/ping", pong)
 
